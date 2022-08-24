@@ -5,13 +5,13 @@ import './style.css';
 
 const Topo = () => (
     <header>
-        <div>
-            <img src="assets/logo.png" alt="" />
+        <div className="container-topo limitar-secao">
+            <img className="logo-topo" src="assets/logo.png" alt="" />
 
-            <nav>
-                <Link to='/'>Home</Link>
-                <Link to='/sabores'>Sabores</Link>
-                <Link to='/sobre'>Sobre</Link>
+            <nav className="manu-topo">
+                <Link className="link-topo" to='/'>Home</Link>
+                <Link className="link-topo" to='/sabores'>Sabores</Link>
+                <Link className="link-topo" to='/sobre'>Sobre</Link>
             </nav>
         </div>
     </header>

@@ -10,7 +10,7 @@ const Home = () => (
 
         <main>
             <section className="secaoBanner">
-                <div>
+                <div className="container-banner">
                     <h1>SORVETE ARTESANAL</h1>
                 </div>
             </section>

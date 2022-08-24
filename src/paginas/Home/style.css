@@ -1,0 +1,23 @@
+.secaoBanner {
+    background-image: url("../../../public/assets/banner-home.png");
+    background-color: #F9DB79;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 95vh;
+    height: 90vh;
+}
+
+.container-banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-shadow: rgb(36, 35, 35) 4px 4px 3px;
+    color: #fff;
+    font-size: 100px;
+}
