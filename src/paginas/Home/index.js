@@ -2,6 +2,8 @@ import React from "react";
 import Topo from "../../componentes/topo";
 import Rodape from "../../componentes/rodape";
 
+import './style.css';
+
 const Home = () => (
     <div>
         <Topo />
