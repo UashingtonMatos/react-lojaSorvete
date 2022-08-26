@@ -15,18 +15,18 @@ const Home = () => (
                 </div>
             </section>
 
-            <section className="secaoSabores">
+            <section className="secaoSabores secao">
                 <img src="assets/banner-sabores.jpg" alt="" />
 
-                <div>
+                <div className="container-secaoSabores container-secao">
                     <h2>Nossos Sabores</h2>
-                    <span>Novos e deliciosos</span>
+                    <span>Novos e deliciosos!</span>
                     <p>Sorvete bom é aquele feito com os melhores ingredientes! Aqui na gelateria todos os nossos produtos são naturais, à base de frutas e sem nenhum conservante! Também temos opções sem lactose e sem açúcar. Venha conhecer e perceber que tem como o sorvete ser delicioso e saudável ao mesmo tempo!</p>
                 </div>
             </section>
 
-            <section className="secaoEventos">
-                <div>
+            <section className="secaoEventos secao">
+                <div className="container-secao">
                     <h2>Nossos Eventos</h2>
                     <span>Delícias com sorvete!</span>
 
@@ -36,10 +36,10 @@ const Home = () => (
                 <img src="assets/eventos-image.jpg" alt="" />
             </section>
 
-            <section className="secaoSobre">
+            <section className="secaoSobre secao">
                 <img src="assets/sobre-image.jpg" alt="" />
 
-                <div>
+                <div className="container-secao">
                     <h2>Sobre Nós</h2>
                     <span>Alegria em cada casquinha!</span>
 

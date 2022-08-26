@@ -21,3 +21,36 @@ h1 {
     color: #fff;
     font-size: 100px;
 }
+
+.secao {
+    display: flex;
+
+}
+
+.secao img {
+    width: 50%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.container-secao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.container-secao h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.container-secao span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.container-secao p {
+    margin: 30px;
+}

@@ -4,11 +4,11 @@ import './style.css';
 
 const Rodape = () => (
     <footer>
-        <div>
+        <div className="container-rodape limitar-secao">
             <img src="/assets/logo.png" alt="" />
             <div>
                 <h3>ENDEREÇO</h3>
-                <p>Av. Bernardino de Campos, 98</p>
+                <p>Av. Bernardino de<br></br>Campos, 98</p>
                 <p>São Paulo, SP 12345-678</p>
             </div>
             <div>
@@ -23,7 +23,7 @@ const Rodape = () => (
             </div>
         </div>
 
-        <div>
+        <div className="container-rodape-desenvolvedor">
             <p>Gelateria. Orgulhosamente desenvolvido por Uashington da Silva Matos</p>
         </div>
     </footer>
