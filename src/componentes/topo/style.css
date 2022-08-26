@@ -20,3 +20,18 @@ header {
     text-decoration: none;
     font-size: 18px;
 }
+
+@media (max-width: 436px) {
+    .container-topo {
+        flex-direction: column;
+    }
+
+    .link-topo {
+        margin: 30px;
+    }
+
+    .menu-topo {
+        border-top: solid 1px #878686;
+        padding-top: 10px;
+    }
+}

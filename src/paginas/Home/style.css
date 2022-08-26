@@ -20,25 +20,32 @@ h1 {
     text-shadow: rgb(36, 35, 35) 4px 4px 3px;
     color: #fff;
     font-size: 100px;
+    text-align: center;
 }
 
 .secao {
     display: flex;
+    width: 100%;
 
 }
 
 .secao img {
     width: 50%;
-    height: 550px;
+    height: auto;
     object-fit: cover;
 }
 
 .container-secao {
     display: flex;
+    width: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 100px;
+}
+
+.secaoEventos {
+    flex-direction: row-reverse;
 }
 
 .container-secao h2 {
@@ -53,4 +60,33 @@ h1 {
 
 .container-secao p {
     margin: 30px;
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    .secao {
+        flex-direction: column;
+    }
+
+    .secao img {
+        width: 100%;
+    }
+
+    .container-secao {
+        width: 100%;
+    }
+
+    .container-secao p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 436px) {
+    .container-secao {
+        padding: 50px;
+    }
 }

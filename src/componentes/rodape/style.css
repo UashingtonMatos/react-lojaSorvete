@@ -7,8 +7,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 100px 30px 30px 30px;
     color: #fff;
+}
+
+.cantainer-rodape-texto {
+    width: 200px;
 }
 
 .container-rodape img {
@@ -19,4 +23,16 @@ footer {
     text-align: center;
     color: #fff;
     padding: 50px 0 0 10px;
+}
+
+@media (max-width: 768px) {
+    .container-rodape {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cantainer-rodape-texto {
+        width: 400px;
+        padding-top: 20px;
+    }
 }
