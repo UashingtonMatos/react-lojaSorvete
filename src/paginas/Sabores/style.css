@@ -1,0 +1,16 @@
+.secao-sabores {
+    background-image: url("../../../public/assets/banner-sabores.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: contain;
+    background-size: 95vh;
+    height: 90vh;
+}
+
+.container-sabores h1 {
+    text-transform: uppercase;
+    text-shadow: rgb(36, 35, 35) 4px 4px 3px;
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+}
